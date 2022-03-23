@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  removeItem,
-  increase,
-  decrease,
-  clearCart,
-} from '../features/cart/cartSlice';
+import { removeItem, increase, decrease } from '../features/cart/cartSlice';
 import { useDispatch } from 'react-redux';
 import { ChevronDown, ChevronUp } from '../icons';
 
